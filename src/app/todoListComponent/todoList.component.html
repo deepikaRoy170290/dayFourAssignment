@@ -1,0 +1,12 @@
+<h1>List of Todos</h1>
+<div class="co-md-12">
+    <ul>
+      <li *ngFor="let track of todos">
+        <b>Title</b>: {{track.title}}
+        <b>Id :</b> {{track.id}} 
+        <b>User ID :</b> {{track.userId}}
+        <b>Completed : </b> {{track.completed}}
+      </li>
+    </ul>
+</div>
+
